@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  background-color: rgb(87, 114, 80);
-}
-
 section {
   text-align: center;
 }
@@ -24,7 +20,12 @@ section {
   border-radius: 2rem;
 }
 
-.calculatora {
+.container h1 {
+  padding-top: 1rem;
+}
+
+.calculadora {
+  padding: 2rem;
   width: 500px;
   display: flex;
   align-items: center;
@@ -46,5 +47,5 @@ section {
 }
 
 .btn:hover {
-  background: rgb(233, 230, 91);
+  background: rgb(240, 245, 244);
 }
